@@ -46,7 +46,7 @@ const LeftHome = () => {
         <h4 className="text-lg font-normal text-white">WELCOME TO MY WORLD</h4>
         <h1 className="text-4xl font-bold text-white">
           Hi, I'm
-          <span className="text-red-500 capitalize"> Vanessa </span>
+          <span className="text-red-500 capitalize"> Tabshilla </span>
         </h1>
         <h2 className="text-2xl font-bold text-white">
           a <span className="text-orange-400">{text}</span>{" "}
@@ -68,14 +68,14 @@ const LeftHome = () => {
           </a>{" "}
           <span className="text">|</span>{" "}
           <a
-            href="https://github.com/Vanessa-79"
+            href="https://github.com/Tabshilla"
             className="text-red-500 hover:underline"
           >
             View my GitHub
           </a>{" "}
           <span className="text">|</span>{" "}
           <a
-            href="https://www.linkedin.com/in/vanessa-nassanga-6807222a4/"
+            href="https://www.linkedin.com/in/tabshilla-maureen-adong-2b8244254/"
             className="text-red-500 hover:underline"
           >
             LinkedIn
@@ -92,14 +92,14 @@ const LeftHome = () => {
           </h2>
           <div className="flex gap-4" style={{ marginLeft: "30px" }}>
             <a
-              href="https://www.facebook.com/profile.php?id=100051636019516"
+              href="https://www.facebook.com/tabshelagh.maureenadong?mibextid=ZbWKwL"
               rel="noopener noreferrer"
               className="bannerIcon text-blue-600"
             >
               <FaFacebookF />
             </a>
             <a
-              href="https://x.com/Vanie779"
+              href="https://x.com/tabondatshelah/"
               target="_blank"
               rel="noopener noreferrer"
               className="bannerIcon text-blue-400"
@@ -107,7 +107,7 @@ const LeftHome = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://www.instagram.com/vanessa_nassanga/"
+              href="https://www.instagram.com/tabsheeeeelagh/profilecard/?igsh=MWJucmRnNWZyb2Z0cg=="
               target="_blank"
               rel="noopener noreferrer"
               className="bannerIcon text-blue-700"

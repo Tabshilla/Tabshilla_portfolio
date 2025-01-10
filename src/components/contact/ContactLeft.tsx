@@ -1,5 +1,5 @@
 // import React from "react";
-import im3 from "../../assets/images/im3.jpg";
+import im3 from "../../assets/images/tabshilla.jpg";
 import { FaTwitter, FaFacebookF, FaWhatsapp } from "react-icons/fa"; // Importing FaWhatsapp
 
 const ContactLeft = () => {
@@ -12,7 +12,7 @@ const ContactLeft = () => {
       />
 
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white mb-2">Vanessa Nassanga</h3>
+        <h3 className="text-3xl font-bold text-white mb-2">Tabshilla Maureen Adong</h3>
         <p className="text-lg font-normal text-gray-400 mb-2">
           Software Developer
         </p>
@@ -23,14 +23,14 @@ const ContactLeft = () => {
         <p className="text-base text-gray-400 flex items-center justify-center gap-2">
           Phone:{" "}
           <span className="text-lightText" style={{ marginRight: "80px" }}>
-            +256 785 507 825
+            +256 787 582 291
           </span>
         </p>
         <p className="text-base text-gray-400 flex items-center justify-center gap-2">
           Email: <br />
           <br />
           <span className="text-lightText" style={{ marginRight: "80px" }}>
-            nassangavanessa2@gmail.com
+            adongtm@gmail.com
           </span>
         </p>
       </div>

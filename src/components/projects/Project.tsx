@@ -1,9 +1,9 @@
 import React from "react";
 import "./Project.css";
 import Title from "../layouts/Title";
-import projectOne from "../../assets/images/daycare.png";
+import projectOne from "../../assets/images/RIMS.png";
 import projectTwo from "../../assets/images/uplift.png";
-import projectThree from "../../assets/images/profile/cartoon.jpg";
+import projectThree from "../../assets/images/profile/DaystarDaycare.png";
 import ProjectCard from "../projects/ProjectCard";
 
 const Project: React.FC = () => {
@@ -24,13 +24,15 @@ const Project: React.FC = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <ProjectCard
-          title="Daystar Daycare Web App"
-          description="A comprehensive web application for Daystar Daycare, focusing on record keeping and management."
-          src={projectOne}
-          status="Completed (Python, Django, JS)"
-          githubLink="https://github.com/Vanessa-79/daystar_management_system.git"
+      <ProjectCard
+          title="Refactory Information Management System"
+          description="An information management system that aims to streamline information in a more clean and manageable way while reducing redunduncy and data loss."
+          src={projectThree}
+          status="In Progress (JS, React, and Nest js)"
+          githubLink="https://github.com/Refactory-Uganda/rims-portal"
         />
+
+        
         <ProjectCard
           title="Uplift Donation Website"
           description="A platform dedicated to empowering individuals and communities in need by facilitating charitable donations and support initiatives."
@@ -38,12 +40,13 @@ const Project: React.FC = () => {
           status="In Progress (Python, Django, JS)"
           githubLink="https://github.com/Vanessa-79/life-changingNew.git"
         />
+        
         <ProjectCard
-          title="Music App for Artist"
-          description="An app tailored for a specific musician, integrating features for music management and interaction."
-          src={projectThree}
-          status="In Progress (Python, Django, JS)"
-          githubLink="#"
+          title="Daystar Daycare Web App"
+          description="A comprehensive web application for Daystar Daycare, focusing on record keeping and management."
+          src={projectOne}
+          status="Completed (Python, Django, JS)"
+          githubLink="https://github.com/Tabshilla/DaystarDaycare"
         />
         {/* <ProjectCard
           title="Student Attendance Management System"

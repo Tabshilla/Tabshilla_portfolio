@@ -36,9 +36,9 @@ const Education = () => {
           transition={{ duration: 0.3 }}
         >
           <ResumeCard
-            title="Currently Doing Bootcamp"
+            title="Bootcamp/Apprentice"
             institution="Refactory Academy"
-            year="2024-Present"
+            year="June 2024-Dec 2024"
             onClick={() => handleCardClick(4)}
             isSelected={selectedCard === 4}
           />
@@ -66,8 +66,8 @@ const Education = () => {
           transition={{ duration: 0.3 }}
         >
           <ResumeCard
-            title="Bachelor of Science in Information Technology"
-            institution="Uganda Martyrs University Nkozi"
+            title="Bachelor of Entrepreneurship and Small Business Management"
+            institution="Makerere University Business School"
             year="2020-2023"
             onClick={() => handleCardClick(2)}
             isSelected={selectedCard === 2}
@@ -82,7 +82,7 @@ const Education = () => {
         >
           <ResumeCard
             title="UACE - Uganda Advanced Certificate of Education"
-            institution="K. Garden Groove College Buddo"
+            institution="Seeta High School Mukono"
             year="2018-2019"
             onClick={() => handleCardClick(0)}
             isSelected={selectedCard === 0}
@@ -97,7 +97,7 @@ const Education = () => {
         >
           <ResumeCard
             title="UCE - Uganda Certificate of Education"
-            institution="Bright Future Academy"
+            institution="Wanyange Girls School"
             year="2014-2017"
             onClick={() => handleCardClick(1)}
             isSelected={selectedCard === 1}

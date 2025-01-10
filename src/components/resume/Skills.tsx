@@ -15,7 +15,7 @@ const Skills = () => {
     { skill: "Django", percentage: 80 },
     { skill: "React", percentage: 40 },
     { skill: "JavaScript", percentage: 30 },
-    { skill: "Bootstrap", percentage: 75 },
+    { skill: "Bootstrap", percentage: 65 },
     { skill: "Version Control (Git)", percentage: 80 },
     { skill: "Tailwind CSS", percentage: 55 },
     { skill: "CSS", percentage: 70 },

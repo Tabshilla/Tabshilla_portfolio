@@ -1,6 +1,6 @@
 // import React from "react";
 import LeftHome from "./LeftHome";
-import im3 from "../../assets/images/im3.jpg";
+import im3 from "../../assets/images/tabshilla.jpg";
 
 import "./Banner.css";
 

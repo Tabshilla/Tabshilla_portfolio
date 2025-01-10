@@ -4,7 +4,7 @@ import "./Navbar.module.css";
 import { FiMenu, FiMoon, FiSun } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { navlinksdata } from "../../constants/index.tsx"; // Ensure correct path
-import im3 from "../../assets/images/im3.jpg"; // Import the image
+import im3 from "../../assets/images/tabshilla.jpg"; // Import the image
 
 const Navbar: React.FC = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
       <div className="navbar-content">
         <div className="flex items-center gap-4">
           <img src={im3} alt="Profile" className="w-10 h-10 rounded-full" />
-          <h1 className="text-white font-bold text-3xl">Vanessa</h1>
+          <h1 className="text-white font-bold text-3xl">Tabshilla</h1>
         </div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10" style={{marginLeft: "50%"}}>
           {navlinksdata.map(({ _id, title, link, icon }) => (
@@ -80,10 +80,10 @@ const Navbar: React.FC = () => {
               alt="Profile"
             />
             <p className="text-sm text-gray-400 mt-2 mb-4">
-              Vanessa is a passionate software developer with expertise in web
+              Tabshilla is a passionate software developer with expertise in web
               development, graphic design, and database management. With a
               strong background in Python, React, and Django, she excels in
-              creating dynamic and user-friendly applications. Vanessa is
+              creating dynamic and user-friendly applications. Tabshilla is
               dedicated to leveraging her skills to deliver innovative solutions
               and drive technological advancements. Outside of coding, she
               enjoys exploring new technologies and staying updated with
