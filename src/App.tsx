@@ -22,7 +22,7 @@ function setCookie(name: string, value: string, days:number) {
 }
 function App() {
   useEffect( () => {
-    setCookie("mycookie", "vanessa", 3)
+    setCookie("mycookie", "tabshilla", 3)
   }, []); 
 
   return (

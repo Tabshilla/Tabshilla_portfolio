@@ -49,7 +49,7 @@ const ContactLeft = () => {
           </span>
           <span className="bannerIcon">
             <a
-              href="https://wa.me/256750468584" // Link to WhatsApp chat
+              href="https://wa.me/256787582291" // Link to WhatsApp chat
               target="_blank"
               rel="noopener noreferrer"
             >

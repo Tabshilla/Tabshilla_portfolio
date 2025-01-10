@@ -38,7 +38,7 @@ const Project: React.FC = () => {
           description="A platform dedicated to empowering individuals and communities in need by facilitating charitable donations and support initiatives."
           src={projectTwo}
           status="In Progress (Python, Django, JS)"
-          githubLink="https://github.com/Vanessa-79/life-changingNew.git"
+          githubLink="https://github.com/Tabshilla/life-changingNew.git"
         />
         
         <ProjectCard
