@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import "./Navbar.module.css";
 import { FiMenu, FiMoon, FiSun } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
@@ -37,17 +37,18 @@ const Navbar: React.FC = () => {
               className="relative flex items-center gap-2 text-base font-normal text-gray-400 tracking-wide cursor-pointer group"
               key={_id}
             >
-              <Link
-                to={link}
+              <ScrollLink
+                to="home"
                 spy={true}
                 smooth={true}
                 offset={-80}
                 duration={500}
+                as="a"
                 className="relative z-10 flex items-center gap-2"
               >
                 {icon}
                 {title}
-              </Link>
+              </ScrollLink>
               <span className="absolute left-0 right-0 bottom-0 h-[2px] bg-red-500 transition-transform duration-300 scale-x-0 group-hover:scale-x-100 group-hover:opacity-100" />
               <span className="absolute left-0 right-0 top-0 h-[2px] bg-red-500 transition-transform duration-300 scale-x-0 group-hover:scale-x-100 group-hover:opacity-100" />
             </li>
@@ -90,7 +91,7 @@ const Navbar: React.FC = () => {
               industry trends.
             </p>
             {navlinksdata.map(({ _id, title, link, icon }) => (
-              <Link
+              <ScrollLink
                 key={_id}
                 to={link}
                 spy={true}
@@ -102,7 +103,7 @@ const Navbar: React.FC = () => {
               >
                 {icon}
                 {title}
-              </Link>
+              </ScrollLink>
             ))}
           </div>
         </div>
