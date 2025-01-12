@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react";
-import { Link as ScrollLink } from "react-scroll";
+import React, { useState, useEffect, ComponentType } from "react";
+import { Link } from "react-scroll";
 import "./Navbar.module.css";
 import { FiMenu, FiMoon, FiSun } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { navlinksdata } from "../../constants/index.tsx"; // Ensure correct path
 import im3 from "../../assets/images/tabshilla.jpg"; // Import the image
 
+
+const ScrollLink = Link as ComponentType<any>;
 const Navbar: React.FC = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
