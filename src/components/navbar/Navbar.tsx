@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
           <h1 className="text-white font-bold text-3xl">Tabshilla</h1>
         </div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10" style={{marginLeft: "50%"}}>
-          {navlinksdata.map(({ _id, title, link, icon }) => (
+          {navlinksdata.map(({ _id, title, icon }) => (
             <li
               className="relative flex items-center gap-2 text-base font-normal text-gray-400 tracking-wide cursor-pointer group"
               key={_id}
