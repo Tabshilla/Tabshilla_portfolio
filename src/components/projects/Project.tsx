@@ -1,9 +1,12 @@
 import React from "react";
 import "./Project.css";
 import Title from "../layouts/Title";
-import projectOne from "../../assets/images/RIMS.png";
+// import projectOne from "../../assets/images/RIMS.png";
+import projectOne from "../../assets/images/DaystarDaycare.png";
+// import projectOne from "../../assets/images/RIMS.png";
 import projectTwo from "../../assets/images/uplift.png";
-import projectThree from "../../assets/images/profile/DaystarDaycare.png";
+import projectThree from "../../assets/images/profile/RIMS.png";
+// import projectThree from "../../assets/images/profile/DaystarDaycare.png";
 import ProjectCard from "../projects/ProjectCard";
 
 const Project: React.FC = () => {
