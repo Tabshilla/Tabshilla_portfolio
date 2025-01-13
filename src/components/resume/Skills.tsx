@@ -6,8 +6,9 @@ import "react-circular-progressbar/dist/styles.css"; // Import the default style
 const Skills = () => {
   const designSkills = [
     { skill: "Figma", percentage: 90 },
-    { skill: "Adobe Photoshop", percentage: 60 },
-    { skill: "Adobe Illustrator", percentage: 85 },
+    { skill: "Canva", percentage: 90 },
+    // { skill: "Adobe Photoshop", percentage: 60 },
+    // { skill: "Adobe Illustrator", percentage: 55 },
   ];
 
   const developmentSkills = [
@@ -20,15 +21,18 @@ const Skills = () => {
     { skill: "Tailwind CSS", percentage: 55 },
     { skill: "CSS", percentage: 70 },
     { skill: "SQL", percentage: 70 },
-  ];
+    { skill: "Agile and Scrum", percentage: 70 },
+    
+ ];
 
   const softSkills = [
+    { skill: "Team Collaboration Tools (Trello)", percentage: 95 },
     { skill: "Problem Solving", percentage: 90 },
     { skill: "Teamwork", percentage: 100 },
     { skill: "Self-Motivation", percentage: 100 },
     { skill: "Effective Communication", percentage: 75 },
     { skill: "Microsoft Office Suite", percentage: 95},
-    { skill: "Team Collaboration Tools (Trello)", percentage: 95 },
+   
   ];
 
   return (

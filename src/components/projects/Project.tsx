@@ -31,8 +31,9 @@ const Project: React.FC = () => {
           title="Refactory Information Management System"
           description="An information management system that aims to streamline information in a more clean and manageable way while reducing redunduncy and data loss."
           src={projectThree}
-          status="In Progress (JS, React, and Nest js)"
-          githubLink="https://github.com/Refactory-Uganda/rims-portal"
+          status="Completed (JS, React, and Nest js)"
+          githubLink="https://rims-portal.onrender.com/"
+          // render= "https://rims-portal.onrender.com/"
         />
 
         

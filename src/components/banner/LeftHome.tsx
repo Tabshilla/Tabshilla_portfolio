@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./Banner.css";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { FaFacebookF, FaTwitter, FaInstagram, FaReact } from "react-icons/fa";
-import { SiDjango, SiFigma, SiBootstrap } from "react-icons/si";
+import { SiPython, SiDjango, SiFigma, SiBootstrap } from "react-icons/si";
 
 const LeftHome = () => {
   const [text] = useTypewriter({
@@ -125,6 +125,9 @@ const LeftHome = () => {
             Best skill on
           </h2>
           <div className="flex gap-4" style={{ marginLeft: "30px" }}>
+          <span className="bannerIcon text-blue-500">
+              <SiPython />
+            </span>
             <span className="bannerIcon text-blue-500">
               <FaReact />
             </span>
