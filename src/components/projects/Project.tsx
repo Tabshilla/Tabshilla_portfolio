@@ -52,13 +52,13 @@ const Project: React.FC = () => {
           status="Completed (Python, Django, JS)"
           githubLink="https://github.com/Tabshilla/DaystarDaycare"
         />
-        {/* <ProjectCard
-          title="Student Attendance Management System"
-          description="A system using QR codes for efficient student attendance tracking."
+        <ProjectCard
+          title="Ecommerce website"
+          description="A system simplifying online shopping and inventory management"
           src={projectThree}
-          status="Completed (HTML, CSS, PHP, JS)"
-          githubLink="https://github.com/yourusername/student-attendance-management-system" // Replace with actual link
-        /> */}
+          status="In Progress (HTML, CSS, PYTHON, DJANGO, JS)"
+          githubLink="https://github.com/Tabshilla/E-commerce.git"  
+        />
       </div>
     </section>
   );

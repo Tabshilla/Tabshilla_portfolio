@@ -20,9 +20,9 @@ const Navbar: React.FC = () => {
   // Apply dark mode class to body
   useEffect(() => {
     if (darkMode) {
-      document.body.classList.add("dark-mode");
+      document.documentElement.classList.add("dark"); // Add .dark to <html>
     } else {
-      document.body.classList.remove("dark-mode");
+      document.documentElement.classList.remove("dark"); // Remove .dark from <html>
     }
   }, [darkMode]);
 
