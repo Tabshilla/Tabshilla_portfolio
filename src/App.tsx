@@ -100,6 +100,8 @@ function App() {
                 <div className="work-meta"><span>{item.number}</span><span>CASE STUDY</span></div>
                 <h3>{item.title}</h3>
                 <h4>{item.subtitle}</h4>
+                {item.title === "Seminal" && <a className="project-link" href="https://seminal.qsourcing.com/" target="_blank" rel="noreferrer">Visit Seminal <span>↗</span></a>}
+                {item.title === "FLIP Africa" && <a className="project-link" href="https://www.flipafrica.app/" target="_blank" rel="noreferrer">Visit FLIP Africa <span>↗</span></a>}
                 <p>{item.body}</p>
                 <ul>{item.details.map((detail) => <li key={detail}>{detail}</li>)}</ul>
                 <div className="outcome"><span>IMPACT</span>{item.outcome}</div>
