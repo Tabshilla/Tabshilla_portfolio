@@ -135,7 +135,7 @@ function App() {
         <h2>Let&apos;s build something<br /><em>that works beautifully.</em></h2>
         <p>I’m open to conversations about product engineering, enterprise systems and practical technology for growing teams.</p>
         <div className="contact-links">
-          <a href="mailto:hello@tabshilla.com">Start a conversation <span>↗</span></a>
+          <a href="mailto:adongtm@gmail.com">Start a conversation <span>↗</span></a>
           <a href="https://github.com/Tabshilla" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
         </div>
       </section>
